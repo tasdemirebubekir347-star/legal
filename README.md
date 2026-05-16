@@ -1,4 +1,6 @@
-
+---
+title: " "
+---
 # KULLANIM KOŞULLARI VE SÖZLEŞMESİ
 
 **Son Güncelleme:** 16 Mayıs 2026
