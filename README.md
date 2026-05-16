@@ -1,5 +1,5 @@
 ---
-title: " "
+title: "Qoop Kullanım Koşulları "
 ---
 # KULLANIM KOŞULLARI VE SÖZLEŞMESİ
 
