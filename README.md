@@ -1,6 +1,3 @@
----
-title: "Qoop Kullanım Koşulları "
----
 # KULLANIM KOŞULLARI VE SÖZLEŞMESİ
 
 **Son Güncelleme:** 16 Mayıs 2026
