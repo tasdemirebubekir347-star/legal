@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Qoop Terms of Service</title>
   <style>
-    :root { color-scheme: light dark; --bg:#fff; --text:#111; --muted:#555; --link:#0095f6; --border:#e5e5e5; }
+    :root { color-scheme: light dark; --bg:#fff; --text:#111; --muted:#555; --link:#0095f6; --card:#f7f7f7; --border:#e5e5e5; }
     @media (prefers-color-scheme: dark) {
-      :root { --bg:#000; --text:#f5f5f5; --muted:#b0b0b0; --border:#262626; }
+      :root { --bg:#000; --text:#f5f5f5; --muted:#b0b0b0; --card:#121212; --border:#262626; }
     }
     body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
     main { max-width:720px; margin:0 auto; padding:32px 20px 48px; }
@@ -16,85 +16,195 @@
     h2 { font-size:1.15rem; margin-top:2rem; }
     p,li { color:var(--muted); }
     a { color:var(--link); }
-    .lang-switch { margin-bottom:24px; font-size:.95rem; }
-    hr { border:none; border-top:1px solid var(--border); margin:32px 0; }
+    ol, ul { padding-left:1.25rem; }
+    .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px 18px; margin:20px 0; }
+    .lang-switch { margin-bottom:24px; font-size:.95rem; display:flex; flex-wrap:wrap; gap:.4rem .85rem; }
+    .lang-switch a { text-decoration:none; }
+    .lang-switch a.is-active { font-weight:700; color:var(--text); text-decoration:underline; }
+    .lang-panel { display:none; }
+    .lang-panel.is-active { display:block; }
+
   </style>
 </head>
 <body>
   <main>
-    <p class="lang-switch"><a href="#en">English</a> · <a href="#tr">Türkçe</a></p>
+    <p class="lang-switch" role="navigation">
+      <a href="#en">English</a>
+      <a href="#tr">Türkçe</a>
+      <a href="#de">Deutsch</a>
+      <a href="#fr">Français</a>
+      <a href="#es">Español</a>
+    </p>
 
-    <section id="en" lang="en">
+    <section id="en" class="lang-panel" lang="en">
+
       <h1>Terms of Service</h1>
       <p>Last updated: May 16, 2026</p>
-
       <h2>1. Acceptance</h2>
       <p>By downloading, installing, registering for, or using Qoop, you agree to these Terms of Service.</p>
-
       <h2>2. Age Requirement and Account Security</h2>
       <ul>
         <li>You must be at least 13 years old to use Qoop and create an account.</li>
         <li>You are responsible for the accuracy of the information you provide.</li>
         <li>You are responsible for keeping your account credentials secure.</li>
       </ul>
-
       <h2>3. Acceptable Use</h2>
       <ul>
         <li>Harassment, threats, and abusive content are prohibited.</li>
         <li>You may not attempt to damage, reverse engineer, or manipulate the platform.</li>
         <li>Illegal, infringing, or inappropriate content may result in permanent suspension.</li>
       </ul>
-
       <h2>4. Intellectual Property</h2>
       <p>Qoop's design, code, branding, and software content are protected. They may not be copied or used commercially without written permission.</p>
-
       <h2>5. Limitation of Liability</h2>
       <p>Qoop is provided "as is." We do not guarantee uninterrupted service or absolute data safety. We are not liable for direct or indirect damages caused by system errors or third-party actions.</p>
-
       <h2>6. Changes and Termination</h2>
       <p>We may update these terms at any time. Updated terms take effect when published. Accounts may be terminated without prior notice for violations.</p>
-
       <h2>7. Contact</h2>
       <p>Questions: <a href="mailto:joinqoop.support@gmail.com">joinqoop.support@gmail.com</a></p>
       <p>Privacy: <a href="https://tasdemirebubekir347-star.github.io/qoop-privacy-policy/">Privacy Policy</a></p>
     </section>
+    <section id="tr" class="lang-panel" lang="tr">
 
-    <hr />
-
-    <section id="tr" lang="tr">
       <h1>Kullanım Koşulları ve Sözleşmesi</h1>
       <p>Son güncelleme: 16 Mayıs 2026</p>
-
       <h2>1. Taraflar ve Kabul</h2>
       <p>Bu Kullanım Koşulları, Qoop uygulamasını indiren, kuran ve kullanan kullanıcılar ile uygulama yönetimi arasında geçerlidir. Uygulamayı kullanarak bu koşulları kabul etmiş sayılırsınız.</p>
-
       <h2>2. Yaş Kısıtlaması ve Hesap Güvenliği</h2>
       <ul>
         <li>Uygulamayı kullanmak için en az 13 yaşında olmanız gerekir.</li>
         <li>Verdiğiniz bilgilerin doğruluğundan siz sorumlusunuz.</li>
         <li>Hesap şifrenizin güvenliğinden siz sorumlusunuz.</li>
       </ul>
-
       <h2>3. Kullanım Şartları</h2>
       <ul>
         <li>Taciz, tehdit ve hakaret içeren paylaşımlar yasaktır.</li>
         <li>Platforma zarar verecek veya tersine mühendislik içeren faaliyetler yasaktır.</li>
         <li>Kurallara aykırı içerikler kalıcı hesap askısına yol açabilir.</li>
       </ul>
-
       <h2>4. Fikri Mülkiyet Hakları</h2>
       <p>Uygulamanın tasarımı, kaynak kodları, logoları ve yazılımsal içeriği saklıdır.</p>
-
       <h2>5. Sorumluluk Sınırlandırılması</h2>
       <p>Uygulama "olduğu gibi" sunulur. Kesintisiz erişim veya veri kaybı olmaması konusunda mutlak garanti verilmez.</p>
-
       <h2>6. Değişiklikler ve Fesih</h2>
       <p>Kullanım koşulları güncellenebilir. Kurallara aykırılık tespit edildiğinde hesap kapatılabilir.</p>
-
       <h2>7. İletişim</h2>
       <p>Sorular: <a href="mailto:joinqoop.support@gmail.com">joinqoop.support@gmail.com</a></p>
       <p>Gizlilik: <a href="https://tasdemirebubekir347-star.github.io/qoop-privacy-policy/">Gizlilik Politikası</a></p>
     </section>
+    <section id="de" class="lang-panel" lang="de">
+
+      <h1>Nutzungsbedingungen</h1>
+      <p>Zuletzt aktualisiert: 16. Mai 2026</p>
+      <h2>1. Annahme</h2>
+      <p>Indem du Qoop herunterlädst, installierst, dich registrierst oder die App nutzt, stimmst du diesen Nutzungsbedingungen zu.</p>
+      <h2>2. Altersanforderung und Kontosicherheit</h2>
+      <ul>
+        <li>Du musst mindestens 13 Jahre alt sein, um Qoop zu nutzen und ein Konto zu erstellen.</li>
+        <li>Du bist für die Richtigkeit der von dir angegebenen Informationen verantwortlich.</li>
+        <li>Du bist für die Sicherheit deiner Zugangsdaten verantwortlich.</li>
+      </ul>
+      <h2>3. Zulässige Nutzung</h2>
+      <ul>
+        <li>Belästigung, Drohungen und beleidigende Inhalte sind verboten.</li>
+        <li>Du darfst die Plattform nicht beschädigen, reverse-engineeren oder manipulieren.</li>
+        <li>Illegale, rechtsverletzende oder unangemessene Inhalte können zu einer dauerhaften Sperre führen.</li>
+      </ul>
+      <h2>4. Geistiges Eigentum</h2>
+      <p>Design, Code, Markenauftritt und Softwareinhalte von Qoop sind geschützt. Sie dürfen ohne schriftliche Genehmigung nicht kopiert oder kommerziell genutzt werden.</p>
+      <h2>5. Haftungsbeschränkung</h2>
+      <p>Qoop wird „wie besehen“ bereitgestellt. Wir garantieren keinen ununterbrochenen Dienst und keine absolute Datensicherheit. Wir haften nicht für direkte oder indirekte Schäden durch Systemfehler oder Handlungen Dritter.</p>
+      <h2>6. Änderungen und Beendigung</h2>
+      <p>Wir können diese Bedingungen jederzeit aktualisieren. Aktualisierte Bedingungen gelten mit der Veröffentlichung. Konten können bei Verstößen ohne vorherige Ankündigung gekündigt werden.</p>
+      <h2>7. Kontakt</h2>
+      <p>Fragen: <a href="mailto:joinqoop.support@gmail.com">joinqoop.support@gmail.com</a></p>
+      <p>Datenschutz: <a href="https://tasdemirebubekir347-star.github.io/qoop-privacy-policy/">Datenschutzrichtlinie</a></p>
+    </section>
+    <section id="fr" class="lang-panel" lang="fr">
+
+      <h1>Conditions d’utilisation</h1>
+      <p>Dernière mise à jour : 16 mai 2026</p>
+      <h2>1. Acceptation</h2>
+      <p>En téléchargeant, installant, vous inscrivant ou utilisant Qoop, vous acceptez les présentes conditions d’utilisation.</p>
+      <h2>2. Âge requis et sécurité du compte</h2>
+      <ul>
+        <li>Vous devez avoir au moins 13 ans pour utiliser Qoop et créer un compte.</li>
+        <li>Vous êtes responsable de l’exactitude des informations que vous fournissez.</li>
+        <li>Vous êtes responsable de la sécurité de vos identifiants.</li>
+      </ul>
+      <h2>3. Utilisation acceptable</h2>
+      <ul>
+        <li>Le harcèlement, les menaces et les contenus abusifs sont interdits.</li>
+        <li>Vous ne devez pas tenter d’endommager, de rétroconcevoir ou de manipuler la plateforme.</li>
+        <li>Un contenu illégal, contrefaisant ou inapproprié peut entraîner une suspension définitive.</li>
+      </ul>
+      <h2>4. Propriété intellectuelle</h2>
+      <p>Le design, le code, la marque et les contenus logiciels de Qoop sont protégés. Ils ne peuvent pas être copiés ni utilisés à des fins commerciales sans autorisation écrite.</p>
+      <h2>5. Limitation de responsabilité</h2>
+      <p>Qoop est fourni « en l’état ». Nous ne garantissons pas un service ininterrompu ni une sécurité absolue des données. Nous ne sommes pas responsables des dommages directs ou indirects causés par des erreurs système ou des actes de tiers.</p>
+      <h2>6. Modifications et résiliation</h2>
+      <p>Nous pouvons mettre à jour ces conditions à tout moment. Les conditions mises à jour s’appliquent dès leur publication. Les comptes peuvent être clôturés sans préavis en cas d’infraction.</p>
+      <h2>7. Contact</h2>
+      <p>Questions : <a href="mailto:joinqoop.support@gmail.com">joinqoop.support@gmail.com</a></p>
+      <p>Confidentialité : <a href="https://tasdemirebubekir347-star.github.io/qoop-privacy-policy/">Politique de confidentialité</a></p>
+    </section>
+    <section id="es" class="lang-panel" lang="es">
+
+      <h1>Términos de servicio</h1>
+      <p>Última actualización: 16 de mayo de 2026</p>
+      <h2>1. Aceptación</h2>
+      <p>Al descargar, instalar, registrarte o usar Qoop, aceptas estos Términos de servicio.</p>
+      <h2>2. Edad mínima y seguridad de la cuenta</h2>
+      <ul>
+        <li>Debes tener al menos 13 años para usar Qoop y crear una cuenta.</li>
+        <li>Eres responsable de la exactitud de la información que proporcionas.</li>
+        <li>Eres responsable de mantener seguras las credenciales de tu cuenta.</li>
+      </ul>
+      <h2>3. Uso aceptable</h2>
+      <ul>
+        <li>Están prohibidos el acoso, las amenazas y el contenido abusivo.</li>
+        <li>No puedes intentar dañar, hacer ingeniería inversa ni manipular la plataforma.</li>
+        <li>El contenido ilegal, que infrinja derechos o inapropiado puede suponer una suspensión permanente.</li>
+      </ul>
+      <h2>4. Propiedad intelectual</h2>
+      <p>El diseño, el código, la marca y el contenido de software de Qoop están protegidos. No pueden copiarse ni usarse con fines comerciales sin permiso por escrito.</p>
+      <h2>5. Limitación de responsabilidad</h2>
+      <p>Qoop se ofrece «tal cual». No garantizamos un servicio ininterrumpido ni una seguridad absoluta de los datos. No somos responsables de daños directos o indirectos causados por errores del sistema o por terceros.</p>
+      <h2>6. Cambios y finalización</h2>
+      <p>Podemos actualizar estos términos en cualquier momento. Los términos actualizados entran en vigor al publicarse. Las cuentas pueden cerrarse sin aviso previo en caso de incumplimiento.</p>
+      <h2>7. Contacto</h2>
+      <p>Preguntas: <a href="mailto:joinqoop.support@gmail.com">joinqoop.support@gmail.com</a></p>
+      <p>Privacidad: <a href="https://tasdemirebubekir347-star.github.io/qoop-privacy-policy/">Política de privacidad</a></p>
+    </section>
   </main>
+
+  <script>
+  (function () {
+    var langs = ["en", "tr", "de", "fr", "es"];
+    function pick() {
+      var h = (location.hash || "").replace("#", "").toLowerCase();
+      if (langs.indexOf(h) >= 0) return h;
+      try {
+        var s = localStorage.getItem("qoop_legal_lang");
+        if (langs.indexOf(s) >= 0) return s;
+      } catch (e) {}
+      var n = (navigator.language || "en").slice(0, 2).toLowerCase();
+      return langs.indexOf(n) >= 0 ? n : "en";
+    }
+    function show(lang) {
+      document.querySelectorAll(".lang-panel").forEach(function (el) {
+        el.classList.toggle("is-active", el.id === lang);
+      });
+      document.querySelectorAll(".lang-switch a").forEach(function (a) {
+        a.classList.toggle("is-active", a.getAttribute("href") === "#" + lang);
+      });
+      document.documentElement.lang = lang;
+      try { localStorage.setItem("qoop_legal_lang", lang); } catch (e) {}
+    }
+    document.addEventListener("DOMContentLoaded", function () { show(pick()); });
+    window.addEventListener("hashchange", function () { show(pick()); });
+  })();
+  </script>
+
 </body>
 </html>
